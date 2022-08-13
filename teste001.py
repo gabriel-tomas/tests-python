@@ -1,0 +1,5 @@
+nome = input('Diga seu nome: ')
+print('Olá,', nome)
+numero1 = input('{} Diga um número: '.format(nome))
+numero2 = input('{} Diga outro número: '.format(nome))
+resultado = print(int(numero1)+int(numero2))
